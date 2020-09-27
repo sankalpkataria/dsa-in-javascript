@@ -11,6 +11,8 @@ function swap(arr, i, j) {
  * @summary For each iteration, compare the element with each subsequent element on right and 
  *      check if the element on left is greater than the element on right,
  *      If element on right is greater, Swap
+ * 
+ * 		It is called bubble sort because elements bubble up in their correct order with each iteration
  * @Time complexity: - O(n^2)
  * @returns {number[]} Sorted array
  */

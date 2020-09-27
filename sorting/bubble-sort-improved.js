@@ -9,6 +9,8 @@
  * 
  * 		If for any iteration, we do not do any swap that means that the array is sorted at this point
  * 		hence we use a flag to check this and break our loop if no swap occurred
+ * 
+ * 		It is called bubble sort because elements bubble up in their correct order with each iteration
  * @Time complexity: - O(n^2)
  * @returns {number[]} Sorted array
  */
