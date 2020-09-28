@@ -11,6 +11,7 @@
  * 
  * 		Insertion sort is useful for sorting stream of data.
  * @Time complexity: - O(n^2)
+ * @Space complexity: - O(1)
  * @returns {number[]} Sorted array
  */
 function insertionSort(arr) {

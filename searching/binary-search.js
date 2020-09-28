@@ -12,6 +12,7 @@
  *      else repeat for right sub array
  *      If none of the elements matches, return -1
  * @Time complexity: - O(log(n))
+ * @Space complexity: - O(1)
  * @tags Divide & conquer
  * @returns {number} Position in array or -1
  */

@@ -11,6 +11,7 @@
  * 		It is called selection sort because for each iteration,
  * 		we select the smallest element and put it on its correct position.
  * @Time complexity: - O(n^2)
+ * @Space complexity: - O(1)
  * @returns {number[]} Sorted array
  */
 function selectionSort(arr) {

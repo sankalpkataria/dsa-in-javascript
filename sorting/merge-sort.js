@@ -46,6 +46,7 @@ function merge(arr1, arr2) {
  *      Once the arrays cannot be divided further,
  *      merge the sub arrays in sorted manner
  * @Time complexity: - O(n(log(n)))
+ * @Space complexity: - O(n)
  * @tags Divide & conquer
  * @returns {number[]} Sorted array
  */

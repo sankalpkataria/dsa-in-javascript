@@ -8,6 +8,7 @@
  *     If it matches, return its position in array.
  *     If none of the elements matches, return -1
  * @Time complexity: - O(n)
+ * @Space complexity: - O(1)
  * @tags Brute force
  * @returns {number} Position in array or -1
  */

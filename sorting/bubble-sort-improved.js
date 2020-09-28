@@ -12,6 +12,7 @@
  * 
  * 		It is called bubble sort because elements bubble up in their correct order with each iteration
  * @Time complexity: - O(n^2)
+ * @Space complexity: - O(1)
  * @returns {number[]} Sorted array
  */
 function bubbleSort(arr) {
