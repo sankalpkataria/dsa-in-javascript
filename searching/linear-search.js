@@ -1,5 +1,6 @@
 /**
  * @name linearSearch
+ * @description Find the position of given element in given array.
  * @param {number[]} array Input array
  * @param {number} num Number to search
  * @summary Loop through each element of array and 
@@ -13,7 +14,7 @@ function linearSearch(array, num) {
 	if (!array.length) {
 		return -1;
 	}
-	for (var i = 0; i < array.length; i++) {
+	for (let i = 0; i < array.length; i++) {
 		if (array[i] === num) {
 			return i;
 		}

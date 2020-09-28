@@ -1,7 +1,7 @@
 /**
  * @name bubbleSort
- * @param {number[]} arr Input array
  * @description Sort the given array using the bubble sort.
+ * @param {number[]} arr Input array
  * @summary This covers the cases where the given array is completely or partially sorted
  * 		For each iteration, compare the element with each subsequent element on right and 
  *      check if the element on left is greater than the element on right,
@@ -15,10 +15,10 @@
  * @returns {number[]} Sorted array
  */
 function bubbleSort(arr) {
-	var arrLen = arr.length;
-	for (var i = 0; i < arrLen; i++) {
+	const arrLen = arr.length;
+	for (let i = 0; i < arrLen; i++) {
 		let noSwap = true;
-		for (var j = 0; j < arrLen-1-i; j++) {
+		for (let j = 0; j < arrLen-1-i; j++) {
 			if (arr[j] > arr[j+1]) {
 				// swap
 				[arr[j+1], arr[j]] = [arr[j], arr[j+1]];

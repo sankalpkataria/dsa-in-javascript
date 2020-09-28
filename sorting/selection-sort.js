@@ -1,7 +1,7 @@
 /**
  * @name selectionSort
- * @param {number[]} arr Input array
  * @description Sort the given array using the selection sort.
+ * @param {number[]} arr Input array
  * @summary For each iteration, choose a minimum element and 
  * 		compare it with each subsequent element on right and
  * 		if the element is smaller than the minimum element, 
@@ -14,9 +14,9 @@
  * @returns {number[]} Sorted array
  */
 function selectionSort(arr) {
-	for (var i = 0; i < arr.length; i++) {
+	for (let i = 0; i < arr.length; i++) {
 		let minIndex = i;
-		for (var j = i+1; j < arr.length; j++) {
+		for (let j = i+1; j < arr.length; j++) {
 			if (arr[j] < arr[minIndex]) {
 				minIndex = j;
 			}

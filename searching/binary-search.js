@@ -1,8 +1,8 @@
 /**
  * @name binarySearch
+ * @description Find the position of given element in given array.
  * @param {number[]} array Input sorted array
  * @param {number} num Number to search
- * @description Find the position of given element in given array.
  * @prerequisite Array should be sorted
  * @summary Find the middle position of array and 
  *      check if it matches the given number

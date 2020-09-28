@@ -1,8 +1,8 @@
 /**
  * @name merge
+ * @description Merge two sorted arrays
  * @param {number[]} arr1 sorted array 1
  * @param {number[]} arr2 sorted array 2
- * @description Merge two sorted arrays
  * @Time complexity: - O(n)
  * @returns {number[]} Sorted array
  */
@@ -34,8 +34,8 @@ function merge(arr1, arr2) {
 
 /**
  * @name mergeSort
- * @param {number[]} arr Input array
  * @description Sort the given array using the mergeSort sort.
+ * @param {number[]} arr Input array
  * @summary The idea is to divide the given array into smaller ones, 
  *      then sort those smaller arrays and merge them
  *      
