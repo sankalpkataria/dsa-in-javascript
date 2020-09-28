@@ -12,6 +12,7 @@
  *      else repeat for right sub array
  *      If none of the elements matches, return -1
  * @Time complexity: - O(log(n))
+ * @tags Divide & conquer
  * @returns {number} Position in array or -1
  */
 function binarySearch(array, num) {

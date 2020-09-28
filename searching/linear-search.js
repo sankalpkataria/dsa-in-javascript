@@ -8,6 +8,7 @@
  *     If it matches, return its position in array.
  *     If none of the elements matches, return -1
  * @Time complexity: - O(n)
+ * @tags Brute force
  * @returns {number} Position in array or -1
  */
 function linearSearch(array, num) {
